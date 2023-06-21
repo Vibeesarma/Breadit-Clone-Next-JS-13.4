@@ -1,5 +1,23 @@
 # Reddit Clone in Next.js 13.4.4
 
+- Page props to get params data by default feature in nextJS like below,
+
+```typescript
+interface PageProps {
+  params: {
+    slug: string;
+  };
+}
+
+const Subreddit = ({ params }: PageProps) => {
+  const { slug } = params;
+
+  return <div>{slug}</div>;
+};
+
+export default Subreddit;
+```
+
 ## Next JS @model
 
 ## Lucide
