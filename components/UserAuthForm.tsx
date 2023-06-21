@@ -17,7 +17,6 @@ const UserAuthForm = ({ className, ...props }: Props) => {
     setIsLoading(true);
 
     try {
-       throw new Error() 
       await signIn("google");
     } catch (error) {
       // toast notification
