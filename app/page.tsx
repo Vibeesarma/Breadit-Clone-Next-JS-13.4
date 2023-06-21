@@ -24,7 +24,12 @@ export default function Home() {
                 favorite communities.
               </p>
             </div>
-            <Link className={buttonVariants({className:'w-full mt-4 mb-6'})} href="/r/create">Create Community</Link>
+            <Link
+              className={buttonVariants({ className: "w-full mt-4 mb-6" })}
+              href="/r/create"
+            >
+              Create Community
+            </Link>
           </div>
         </div>
       </div>
