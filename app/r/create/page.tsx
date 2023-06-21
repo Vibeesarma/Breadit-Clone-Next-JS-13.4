@@ -48,6 +48,17 @@ const Create = () => {
           return loginToast();
         }
       }
+
+      // if no axios error
+      toast({
+        title: "There was an error.",
+        description: "Could not create subreddit.",
+        variant: "destructive",
+      });
+    },
+
+    onSuccess: (data) => {
+      router.push(`/r/${data}`);
     },
   });
 
