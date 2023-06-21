@@ -1,5 +1,10 @@
 # Reddit Clone in Next.js 13.4.4
 
+
+
+## Next JS @model
+
+
 ## Lucide
 
 - [Lucide](https://lucide.dev/) is an icon liberary used for shadcn/ui.
@@ -56,3 +61,6 @@ export function Toaster() {
 ### Pick
 
 ## Pass ClassName Props
+
+
+
