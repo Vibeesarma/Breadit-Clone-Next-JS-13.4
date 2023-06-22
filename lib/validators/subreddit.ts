@@ -10,6 +10,6 @@ export const SubredditSubscriptionValidator = z.object({
 
 // types for schema
 export type CreateSubredditPayload = z.infer<typeof SubredditValidator>;
-export type CreateSubredditSubscriptionPayload = z.infer<
+export type SubredditSubscriptionPayload = z.infer<
   typeof SubredditSubscriptionValidator
 >;
