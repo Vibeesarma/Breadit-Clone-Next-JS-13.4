@@ -196,6 +196,21 @@ export default useCustomToast;
     },
 ```
 
+## React Hook Form
+
+- [React hook form](https://react-hook-form.com/) is used for handling form values and errors.
+- If you want to add validation with Zod or another package like yup you should install `yarn add @hookform/resolvers` with this package.
+
+
+## Editer JS
+
+- [Editor.js](https://editorjs.io/) is a block-style editor for rich media stories. It outputs clean data in JSON instead of heavy HTML markup.
+
+## UploadThing
+
+- [UploadThing](https://uploadthing.com/) is the easiest way to add file uploads to your full stack TypeScript application
+- This is also similar to S3 but it takes a low amount of time setup.
+
 ## Types
 
 ### partial
