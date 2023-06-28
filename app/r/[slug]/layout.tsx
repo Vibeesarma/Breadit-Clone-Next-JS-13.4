@@ -21,7 +21,7 @@ const Layout = async ({
       name: slug,
     },
     include: {
-      post: {
+      posts: {
         include: {
           author: true,
           votes: true,

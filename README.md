@@ -201,7 +201,6 @@ export default useCustomToast;
 - [React hook form](https://react-hook-form.com/) is used for handling form values and errors.
 - If you want to add validation with Zod or another package like yup you should install `yarn add @hookform/resolvers` with this package.
 
-
 ## Editer JS
 
 - [Editor.js](https://editorjs.io/) is a block-style editor for rich media stories. It outputs clean data in JSON instead of heavy HTML markup.
@@ -210,6 +209,20 @@ export default useCustomToast;
 
 - [UploadThing](https://uploadthing.com/) is the easiest way to add file uploads to your full stack TypeScript application
 - This is also similar to S3 but it takes a low amount of time setup.
+
+## Mantine Hook
+
+- [Mantine](https://mantine.dev/) is used to create infinity-scrolling intersections.
+- Create like below,
+
+```typescript
+const lastPostRef = useRef<HTMLElement>(null);
+
+const { ref, entry } = useIntersection({
+  root: lastPostRef.current,
+  threshold: 1,
+});
+```
 
 ## Types
 
