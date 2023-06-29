@@ -38,7 +38,10 @@ const Subreddit = async ({ params }: PageProps) => {
       <MiniCreatePost session={session} />
 
       {/* Show the posts */}
-      <PostFeed initalPosts={subreddit.posts} subredditName={subreddit.name}/>
+
+      {/*TODO: if we got any null error we want to solve this  */}
+      {/* @ts-expect-error */}
+      <PostFeed initalPosts={subreddit.posts} subredditName={subreddit.name} />
     </>
   );
 };
