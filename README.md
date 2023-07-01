@@ -213,7 +213,7 @@ export default useCustomToast;
 ## Mantine Hook
 
 - [Mantine](https://mantine.dev/) is used to create infinity-scrolling intersections.
-- Create like below,
+- Create like the below,
 
 ```typescript
 const lastPostRef = useRef<HTMLElement>(null);
@@ -224,10 +224,27 @@ const { ref, entry } = useIntersection({
 });
 ```
 
+# UpStash
+
+- [upstash](https://upstash.com/) is very useful for Redis database.
+- Also, it has database and cluster support.
+- You can initialize like below,
+
+```typescript
+import { Redis } from "@upstash/redis";
+
+export const redis = new Redis({
+  url: process.env.REDIS_URL!,
+  token: process.env.REDIS_SECRET!,
+});
+```
+
 ## Types
 
 ### partial
 
 ### Pick
+
+- This is a cool concept of type pick only one type from another type's definition.
 
 ## Pass ClassName Props
