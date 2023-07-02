@@ -21,6 +21,9 @@ const Subreddit = async ({ params }: PageProps) => {
     include: {
       posts: {
         include: { author: true, votes: true, comments: true, subreddit: true },
+        orderBy: {
+          createdAt: "desc",
+        },
         take: INFINITE_SCROLLING_PAGINATION_RESULTS,
       },
     },
