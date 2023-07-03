@@ -239,6 +239,22 @@ export const redis = new Redis({
 });
 ```
 
+# Lodash.debounce
+
+- This is used for search request call when on change this will help when you don't type until 300ms only run the search query like below you define the function.
+
+```typescript
+const request = debounce(async () => {
+  await refetch();
+}, 300);
+
+const debounceRequest = useCallback(() => {
+  request();
+}, []);
+```
+
+- you install this package using `npm i --save lodash.debounce`.
+
 ## Types
 
 ### partial
