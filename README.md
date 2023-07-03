@@ -264,3 +264,8 @@ const debounceRequest = useCallback(() => {
 - This is a cool concept of type pick only one type from another type's definition.
 
 ## Pass ClassName Props
+
+
+## Note 
+
+- If you submit prisma to Vercel you want to add ```prisma `generate` in your build command.
