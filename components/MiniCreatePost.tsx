@@ -18,14 +18,14 @@ const MiniCreatePost = ({ session }: MiniCreatePostProps) => {
   return (
     <li className="overflow-hidden rounded-md bg-white shadow">
       <div className="h-full px-6 py-4 flex justify-between gap-6">
-        <div className="relative">
+        <div className="relative h-fit">
           <UserAvatar
             user={{
               image: session?.user.image || null,
               name: session?.user.name || null,
             }}
           />
-          <span className="absolute bottom-0 right-0 rounded-full w-3 h-3 bg-green-500 outline-2 outline-white" />
+          <span className="absolute bottom-0 right-0 rounded-full w-3 h-3 bg-green-500 outline outline-2 outline-white" />
         </div>
         <Input
           readOnly

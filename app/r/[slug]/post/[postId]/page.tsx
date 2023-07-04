@@ -43,7 +43,7 @@ const SinglePost = async ({ params }: SinglePostProps) => {
 
   return (
     <div>
-      <div className="h-full flex flex-col sm:flow-row items-center sm:items-start justify-between">
+      <div className="h-full flex flex-col sm:flex-row items-center sm:items-start justify-between">
         <Suspense fallback={<PostVoteShell />}>
           <PostVoteServer
             postId={post?.id ?? cachedPost.id}
@@ -59,7 +59,7 @@ const SinglePost = async ({ params }: SinglePostProps) => {
             }}
           />
         </Suspense>
-        <div className="sm:w-0 w-full flex-1 bg-white p-4 rounded-sm">
+        <div className="w-full flex-1 bg-white p-4 rounded-sm">
           <p className="max-h-40 mt-1 truncate text-xs text-gray-500">
             Post by u/{post?.author.username ?? cachedPost.authorUsername}{" "}
             {formatTimeToNow(new Date(post?.createdAt ?? cachedPost.createdAt))}
