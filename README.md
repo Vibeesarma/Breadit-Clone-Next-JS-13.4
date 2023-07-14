@@ -27,7 +27,7 @@ export default Subreddit;
 ## shadcn/ui
 
 - [shadcn](https://ui.shadcn.com/) is designed components that you can copy and paste into your apps.
-- you can also install components using `npx```` command.
+- you can also install components using ```npx``` command.
 
 ## Toaster
 
