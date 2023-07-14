@@ -268,4 +268,4 @@ const debounceRequest = useCallback(() => {
 
 ## Note 
 
-- If you submit prisma to Vercel you want to add ```prisma `generate` in your build command.
+- If you submit prisma to Vercel you want to add ```prisma generate``` in your build command.
