@@ -1,5 +1,7 @@
 # Reddit Clone in Next.js 13.4.4
 
+![image](https://github.com/Vibeesarma/Breadit-Clone-Next-JS-13.4/assets/77588716/7768f1a2-0a18-4784-b628-73ed637bde89)
+
 - Page props to get params data by default feature in nextJS like below,
 
 ```typescript
