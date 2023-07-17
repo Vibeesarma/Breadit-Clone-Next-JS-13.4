@@ -2,6 +2,10 @@
 
 ![image](https://github.com/Vibeesarma/Breadit-Clone-Next-JS-13.4/assets/77588716/7768f1a2-0a18-4784-b628-73ed637bde89)
 
+>This project get from [Josh tried coding](https://www.youtube.com/@joshtriedcoding) YouTube channel
+
+>Project Link [Build and Deploy a Fullstack Reddit Clone: Next.js 13, React, Tailwind, Auth, Prisma, MySQL](https://www.youtube.com/watch?v=mSUKMfmLAt0&t=32516s)
+
 - Page props to get params data by default feature in nextJS like below,
 
 ```typescript
@@ -75,7 +79,7 @@ export function Toaster() {
 
 - [TanStack Query](https://tanstack.com/query/latest) is Powerful asynchronous state management for TS/JS.
 
-- You can install using `yarn add @tanstack/react-query` also install eslint package to find bugs `yarn add -D @tanstack/eslint-plugin-query`.
+- You can install using `yarn add @tanstack/react-query` and also install eslint package to find bugs `yarn add -D @tanstack/eslint-plugin-query`.
 
 - This is work on the client side so you want to declare a provider for this one.
 
@@ -113,7 +117,7 @@ const { mutate: createCommunity, isLoading } = useMutation({
 
 - [Zod](https://zod.dev/) is a validator.
 
-- You can create a schema type like below using Zod
+- You can create a schema type like the one below using Zod
 
 ```typescript
 import { z } from "zod";
@@ -209,7 +213,7 @@ export default useCustomToast;
 
 ## UploadThing
 
-- [UploadThing](https://uploadthing.com/) is the easiest way to add file uploads to your full stack TypeScript application
+- [UploadThing](https://uploadthing.com/) is the easiest way to add file uploads to your full-stack TypeScript application
 - This is also similar to S3 but it takes a low amount of time setup.
 
 ## Mantine Hook
@@ -271,3 +275,5 @@ const debounceRequest = useCallback(() => {
 ## Note 
 
 - If you submit prisma to Vercel you want to add ```prisma generate``` in your build command.
+
+> Thanks for [Josh tried coding](https://www.youtube.com/@joshtriedcoding).
